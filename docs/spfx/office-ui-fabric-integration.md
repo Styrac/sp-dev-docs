@@ -303,7 +303,7 @@ Solutions build with *no JavaScript framework* option.
 ```ts
   import { getIconClassName } from '@uifabric/styling';
 
-  return `<i class="${getIconClassName('Mail')}" />`;
+  return `<i class="${getIconClassName('Mail')}"> </i>`;
 ```
 
 Solutions build with *React* option or by using *React* in general.
